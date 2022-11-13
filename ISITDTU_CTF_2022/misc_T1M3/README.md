@@ -80,7 +80,7 @@ As I have mentioned before, this server is vulnerable to SQL Injections, and we 
 If you look at each request, there are something worth mentioning:
 - You don't have to understand the whole SQL query.
 - Each query will perform a mathematics comparision, the number is the `NCHAR` value, so find all the correct number and convert it into normal characters, we will get everything in the database.
-- Every query containing `!=` is always false (the request time is always < 0), therefore, we only need to look at the number in that query.
+- Every query containing `!=` is always false (the request time is always < 0), therefore, these numbers are present in the database as `NCHAR`.
 
 ### Results
 Now we just need to dump data in the `myDB` tables to get the flag. Remember to use a `Decimal to ASCII` tool to convert `NCHAR` to normal character.
