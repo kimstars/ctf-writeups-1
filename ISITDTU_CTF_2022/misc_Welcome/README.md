@@ -14,7 +14,7 @@ If you check the emoji sections, there are 5 emojis named `flag-pepe`. Just put 
 Flag is:
 
 ```
-ISITDTU{Welcome_to_ISITDTU-CTF-2022_GoodLuck}
+ISITDTU{Welcome_to_ISITDTU-CTF-2022_You_find_me}
 ```
 
 _I didn't remember the correct flag, so forgive me if this is a false one._
